@@ -326,7 +326,6 @@ def startScreen():
 
 def fileSelectionMenu():
     def read():
-        print('command')
         global story
         story = storychosen.get()
 
