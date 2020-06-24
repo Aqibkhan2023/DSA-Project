@@ -34,6 +34,8 @@ def update_choice():
     kar = karma.get()
     if kar == "":
         kar = 0
+    else:
+        kar = int(kar)
     choices.append([tn, ch_tx, kar])
     print(nodes)
     print(choices)
