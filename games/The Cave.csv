@@ -1,0 +1,12 @@
+0,cave.png,ghoul.mp3,start,"Walter opens his eyes slowing only to see the darkness of the cave he has been thrown in. Trying to recall what had happened, his head starts to ache. How he had gotten here, what had happened; the answers to all these questions have been lost in the depths of his mind, to which he couldn’t reach.",1
+1,cave.png,tension.mp3,choices,"His body hurt as much as his mind, he was not sure if he was ready to get up and search for an exit.","[2,'Rest for a little longer',0], [3,'Try to get up',10]"
+2,cave.png,unsure(2).mp3,end,Walter slowly closes his eyes not knowing he will never open them again.,.
+3,cave.png,unsure.mp3,straight,"Walter uses his remaining energy to push himself up. Using the nearby rocks to support him, he manages to get up.",4
+4,cave.png,tension.mp3,choices,"Walter hears a voice, ""Help, my leg is stuck! Someone please help! Is anyone there?."" He also sees a light shining through in the opposite direction to the voice.","[5,'Walk towards the voice',25], [6,'Walk towards the light',-5]"
+5,cave.png,tension.mp3,choices,"Walter walks slowly towards, carefully taking each step. He eventually reaches a spot dimly lit by a hole in the ceiling of the cave. He lays his eyes on the man with his legs stuck beneath a rock. Besides the man, lies a bag with supplies enough for one person. The man does not see Walter","[7,'Take the bag and leave',-25], [8,'Help the man out',30], [4,'Walk away',-5]"
+6,cave.png,win.mp3,karma,"Walter slowly treads towards the light. With each step, the light begins to grow larger. Eventually he sees the opening of the cave. He smiles, as he walks towards it.","[9,'Get out safely', '>10'],[10, 'Attacked by a wild hungry bear', '<=10']"
+7,cave.png,loss.mp3,straight,Walter carefully picks up the bag and slowly backs off,4
+8,cave.png,action.mp3,straight,"Walter calms the man down. The man is terrified. He pushes the rock away with the help of a tool from the bag. The man introduces himself as Arnold. He explains that they were thrown there by the natives after being drugged, which affected his memory.",11
+9,jungle.png,win.mp3,end,"Walter walks out to his freedom and breathes in the fresh, perfumed air.",.
+10,jungle.png,ghoul.mp3,end,"Walter walks to his freedom, but as he steps on the grass he hears loud growl from the back. He turns around to see a bear running towards him. He knows this is his end.",.
+11,jungle.png,win.mp3,end,"Walter and Arnold walk out of the cave, unsure of their future, but knowing that they will live through the night.",.
