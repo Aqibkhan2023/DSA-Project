@@ -1,10 +1,10 @@
 # DSA-Project
-Adaptive Story Game
+Adaptive Story
 
-Group mebers
- Sameer Pervez
- Muhammad Aqib Khan
- Syed Muhammad Kumail Rizvi
+Group members:
+- Sameer Pervez
+- Muhammad Aqib Khan
+- Syed Muhammad Kumail Rizvi
 
 Description:
 
