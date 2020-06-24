@@ -1,0 +1,7 @@
+0,bg.png,unsure(2).mp3,choices,Wake up,"[[1, 'Have breakfast', 15],[2, 'Go Outside', -5]]"
+1,bg.png,unsure(2).mp3,choices,Have Breakfast,"[[3, 'Wash  dishes', 10],[4, 'Go to Bed', -10]]"
+2,bg.png,unsure(2).mp3,choices,Go outside,"[[5, 'Meet Friends', 5],[6, 'Go to Jungle', -20]]"
+3,bg.png,unsure(2).mp3,end,She started washing dishes,.
+4,bg.png,unsure(2).mp3,end,She went to bed,.
+5,bg.png,unsure(2).mp3,end,She  met friends,.
+6,bg.png,unsure(2).mp3,end,She went to jungle,.
